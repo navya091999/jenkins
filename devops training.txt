@@ -1,0 +1,9 @@
+1.demo1-brief explanation of devops-
+2.demo2-followed by class1 and azure services
+3.acc creations
+4.login to server
+5.windows logins and cmds
+6.git,git cmds
+7.merging
+8.mvn installations
+9.

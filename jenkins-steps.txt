@@ -1,0 +1,45 @@
+ 1  yum install git
+    2  sudo sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
+    3  sudo sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
+    4  yum install git
+    5  git --version
+    6  ls
+    7  top
+    8  ls
+    9  pwd
+   10  cp -r jdk-11.0.19_linux-x64_bin.tar.gz /opt
+   11  cd /opt
+   12  pwd
+   13  ls
+   14  tar -xzf jdk-11.0.19_linux-x64_bin.tar.gz
+   15  ls
+   16  cd jdk-11.0.19
+   17  ls
+   18  pwd
+   19  vi ~/.bashrc
+   20  source ~/.bashrc
+   21  sudo yum install java-11-openjdk-devel -y
+   22  java -version
+   23  yum install epel-release -y
+   24  wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+   25  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+   26  yum update -y
+   27  sudo yum install jenkins-2.462.3 -y
+   28  sudo yum install jenkins-2.462.2 -y
+   29  sudo yum install jenkins-2.462 -y
+   30  histroy
+   31  history
+   32  sudo yum install jenkins -y
+   33  top
+   34  wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+   35  yum install wget -y
+   36  wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+   37  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+   38  yum update -y
+   39  sudo yum install jenkins-2.462.3 -y
+   40  systemctl start jenkins
+   41  systemctl start jenkins
+   42  systemctl status jenkins
+   43  top
+   44  cat /var/lib/jenkins/secrets/initialAdminPassword
+   45  top
